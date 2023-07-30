@@ -1,18 +1,18 @@
-package com.cg.class2;
+package com.cg.day5;
 
 class Heptathlon{
 	void displayclass() {
-		System.out.println("This is Heptathlon Class");
+		System.out.println("This is Heptathlon(Parent) Class");
 	}
 }
 class HighJump extends Heptathlon{
 	void event1() {
-		System.out.println("This is HighJump Class");
+		System.out.println("This is HighJump(Sub class 1) Class");
 	}
 }
 class Hurdles extends Heptathlon{
 	void event2() {
-		System.out.println("This is Hurdles Class");
+		System.out.println("This is Hurdles(Sub class 1) Class");
 	}
 }
 public class Hierarchy {
@@ -26,4 +26,5 @@ public class Hierarchy {
 		hr.event2();	
 	}
 }
+
 
