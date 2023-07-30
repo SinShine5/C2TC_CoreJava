@@ -7,7 +7,7 @@ public class Typecasting {
 		int a =b;
 		float f= b;
 		double d=f;
-		//Can't convert a string to a character and int to byte
+		//Can't convert a string to a character and integer to byte
 		byte b1=13;
 		short s=b1;
 		int i=2121;

@@ -4,7 +4,7 @@ public class IfElse {
 
 	public static void main(String[] args) {
 		char a= 'A',b='S';
-		int x=a,y=b;//type conversion
+		int x=a,y=b;//type conversions
 		if(a!=b) {
 			System.out.println("Ascii value of : "+x);
 			System.out.println("Ascii value of b : "+y);

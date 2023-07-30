@@ -1,6 +1,7 @@
 package com.cg.day2;
 
 public class IfElseLadder {
+	//more conditions
 
 	public static void main(String[] args) {
 		int i=17,j=13,k=5;

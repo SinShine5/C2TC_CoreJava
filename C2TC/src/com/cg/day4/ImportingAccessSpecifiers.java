@@ -7,10 +7,10 @@ public class ImportingAccessSpecifiers {
 		s.up();
 		s.right();
 		s.left();
-	System.out.println(a);
-	System.out.println(b);
-	System.out.println(c);
-	System.out.println(d);
+	System.out.println("This is private variable : "+a);
+	System.out.println("This is public variable : "+b);
+	System.out.println("This is default variable : "+c);
+	System.out.println("This is protected variable : "+d);
 	}
 	
 }

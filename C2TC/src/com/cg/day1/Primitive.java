@@ -3,7 +3,7 @@ package com.cg.day1;
 public class Primitive {
 
 	public static void main(String[] args) {
-		//PRIMITIVE DATA TYPE
+		//PRIMITIVE DATA TYPES
 		byte b=87;
 		short s=2354;
 		int i=8378234;

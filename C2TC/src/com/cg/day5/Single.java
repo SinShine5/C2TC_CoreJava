@@ -3,12 +3,14 @@ package com.cg.day5;
 
 class OutdoorGames{
 	void select() {
-		System.out.println("This is Outdoor Games Class(Parent class");
+		System.out.println("This is Outdoor"
+				+ " Game Class(Parent class");
 	}
 }
 class Badminton extends OutdoorGames{
 	void play() {
-		System.out.println("This is Badminton Class(Sub class)");
+		System.out.println("This is Badminton"
+				+ " Class(Sub class)");
 	}
 }
 public class Single {

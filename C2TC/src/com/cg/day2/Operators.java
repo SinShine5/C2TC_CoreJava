@@ -12,7 +12,7 @@ public class Operators {
         System.out.println("Mod : "+(i%j));
         
         
-        //UNARY OPERATOR
+        //UNARY OPERATORS
         System.out.println("Post increment : "+(i++));
         System.out.println("Pre increment : "+(++i));
         System.out.println("Post decrement : "+(i--));
@@ -24,7 +24,7 @@ public class Operators {
         System.out.println("Concatenation(i+j)= " + i + j);
         
         
-        //ASSIGNMENT OPERATOR
+        //ASSIGNMENT OPERATORS
         int x=15,y=16;
         System.out.println("x+=2 : "+(x+=2));//
         System.out.println("x-=2 : "+(x-=2));
@@ -42,7 +42,7 @@ public class Operators {
         System.out.println("x>>>=1 : "+(x >>>= 1));
         
         
-        //COMPARISON OPERATOR or RALTIONAL OPERATOR
+        //COMPARISON OPERATORS or RELATIONAL OPERATORS
         if(i==j) {
             System.out.println("i equals to j : "+i);
             }
@@ -63,7 +63,7 @@ public class Operators {
         }
         
         
-        //LOGICAL OPERATOR
+        //LOGICAL OPERATORS
         if(i<5 && j<6) {
             System.out.println(i);
    }
@@ -75,14 +75,14 @@ public class Operators {
    }
         
         
-        //TERNARY OPERATOR
+        //TERNARY OPERATORS
         // i=10,j=5,x=2;     
         //        |condtn| ? |    if true     | : |    if false   |  
         int res = ((i > j) ? ((i > x) ? i : x ) : ((j > x) ? j : x));
         System.out.println("Ternary : "+res);
         
         
-        //BITWISE OPERATOR
+        //BITWISE OPERATORS
         int a= 0b1010;
         int b = 0b1100;
         System.out.println("a & b : " +( a & b));
@@ -95,13 +95,13 @@ public class Operators {
         
         
         
-     //INSTANCE OF OPERATOR 
-                Operators o = new Operators();
-                Operators n = new Operators();
-                System.out.println("o instanceof Operators : "
-                                   + (o instanceof Operators));
-                System.out.println("b instanceof Operators : "
-                                   + (n instanceof Operators));
+     //INSTANCE OF OPERATORS
+        Operators o = new Operators();
+        Operators n = new Operators();
+        System.out.println("o instanceof Operators : "
+                         + (o instanceof Operators));
+        System.out.println("b instanceof Operators : "
+                         + (n instanceof Operators));
                 
 	} 
         }

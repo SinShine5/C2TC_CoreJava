@@ -13,22 +13,22 @@ import com.cg.day4.ImportingAccessSpecifiers;
 
 class Specifiers{
 private void down() {
-	System.out.println("This is private method");
+	System.out.println("This is a private method");
 
 }
 
 public void up() {
-	System.out.println("This is public method");
+	System.out.println("This is a public method");
 
 }
 
  void right() {
-	System.out.println("This is default method");
+	System.out.println("This is a default method");
 
  }
  
 protected void left() {
-	System.out.println("This is protected method");
+	System.out.println("This is a protected method");
 }
 
 }

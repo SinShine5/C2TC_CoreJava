@@ -3,7 +3,7 @@ package com.cg.day2;
 public class Dowhile {
 
 	public static void main(String[] args) {
-		//Exit check loop
+		//Exits check loop
 		//This executes at least one time
 		int a=1;
 		do{

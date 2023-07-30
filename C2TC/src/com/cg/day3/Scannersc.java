@@ -9,7 +9,7 @@ public class Scannersc {
 		int mark2 = s.nextInt();
 		int Avg = (mark1+mark2)/2;
 		System.out.println("Average of two marks"+Avg);
-		System.out.println("Average of two marks"+ss);
+		System.out.println(ss);
 		s.close();
 		ss.close();
 	}

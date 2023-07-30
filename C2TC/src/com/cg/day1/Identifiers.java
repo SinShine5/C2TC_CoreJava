@@ -3,7 +3,7 @@ package com.cg.day1;
 public class Identifiers {
 
 	public static void main(String[] args) {
-		//iDENTIFIERS
+		//iDENTIFIERSS
 		int $sin = 20;
 		int _9win = 45;
 		int _meine = 50;

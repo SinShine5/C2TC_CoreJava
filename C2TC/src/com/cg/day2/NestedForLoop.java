@@ -10,6 +10,7 @@ public class NestedForLoop {
 		}
 			System.out.println();
 		}
+		System.out.print("This is nested for loop");
 	}
 
 }

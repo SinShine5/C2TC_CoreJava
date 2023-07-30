@@ -45,6 +45,6 @@ public void setNum(int num) {
 
 @Override
 public String toString() {
-	return "Encapsuled [name=" + name + ", id=" + id + ", email=" + email + ", num=" + num + "]";
+	return "Encapsuled output [name=" + name + ", id=" + id + ", email=" + email + ", num=" + num + "]";
 }
 }

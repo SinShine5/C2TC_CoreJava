@@ -8,7 +8,7 @@ public class Forloop {
 			System.out.println("  *   *");
 			System.out.println(";(_____) ;");
 			System.out.println("   ");
-			System.out.println("   ");
+			System.out.println(" A for loop  ");
 			
 		}
 	}

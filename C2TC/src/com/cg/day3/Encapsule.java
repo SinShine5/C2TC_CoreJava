@@ -1,5 +1,6 @@
 package com.cg.day3;
-//encapsule class
+
+//encapsulation class
 import com.cg.day3.Encapsulation;
 
 public class Encapsule {

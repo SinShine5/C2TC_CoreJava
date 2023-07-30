@@ -31,7 +31,7 @@ public class SwitchStatement {
 			System.out.println("The modulo value of i and j is : "+ans);
 			break;
 		default:
-			System.out.println("Invalid Operator");
+			System.out.println("You have entered an Invalid Operator");
 		}
 	}
 

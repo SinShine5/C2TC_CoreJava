@@ -2,7 +2,7 @@ package com.cg.day5;
 
 class Heptathlon{
 	void displayclass() {
-		System.out.println("This is Heptathlon(Parent) Class");
+		System.out.println("This is Heptathlon(Parent Class) class");
 	}
 }
 class HighJump extends Heptathlon{

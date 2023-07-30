@@ -5,7 +5,7 @@ public class Break{
 	public static void main(String[] args) {
 		int i;
 		for(i=1;i<=5;i++) {
-			System.out.println("FOR LOOP for break");
+			System.out.println("FOR LOOP for a break");
 			System.out.println("  *   *");
 			System.out.println(";(_____) ;");
 			System.out.println("The incremented value after each loop : "+i);
