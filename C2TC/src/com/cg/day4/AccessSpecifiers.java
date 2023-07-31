@@ -1,15 +1,38 @@
 package com.cg.day4;
 
-import com.cg.day4.ImportingAccessSpecifiers;
+//import com.cg.day4.ImportingAccessSpecifiers;
 
+     public class AccessSpecifiers {
+		private int a;
+		public int b;
+		int c;
+		protected int d;
+		
+     AccessSpecifiers(){
+    	 a=78;
+ 		 b=12;
+ 		c=37;
+ 		d=27;
+    	 
+     }
+     AccessSpecifiers(int a, int b,int c,int d){
+    	this.a = a;
+ 		 this.b = b;
+ 		this.c = c;
+ 		this.d = d;
+    	 
+     }
 
-    public class AccessSpecifiers {
-		private int a=78;
-		public int b=12;
-		int c=37;
-		protected int d=27;
-}	
+@Override
+public String toString() {
+	return " output [This is private variable "
+			+ "a=" + a + ",This is public variable b="
+			+ b + ",This is default variable c=" 
+			+ c + ",This is protected variable d=" 
+			+ d + "]";
 }
+}
+     
 
 class Specifiers{
 private void down() {
@@ -30,5 +53,4 @@ public void up() {
 protected void left() {
 	System.out.println("This is a protected method");
 }
-
 }
