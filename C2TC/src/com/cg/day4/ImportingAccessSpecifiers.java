@@ -9,7 +9,7 @@ public class ImportingAccessSpecifiers {
 		s.up();
 		s.right();
 		s.left();
-	System.out.println("This is private variable : "+a);
+	System.out.println("This is variables in another class : "+a);
 	}
 	
 }

@@ -25,7 +25,7 @@ package com.cg.day4;
 
 @Override
 public String toString() {
-	return " output [This is private variable "
+	return " output [This is a private variable "
 			+ "a=" + a + ",This is public variable b="
 			+ b + ",This is default variable c=" 
 			+ c + ",This is protected variable d=" 
