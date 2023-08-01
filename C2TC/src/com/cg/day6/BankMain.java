@@ -1,21 +1,21 @@
 package com.cg.day6;
 
-import com.cg.day6.Icici;
-import com.cg.day6.SBI;
+import com.cg.day6.IciciBank;
+import com.cg.day6.SBIBank;
 import com.cg.day6.IndianBank;
 
 
 public class BankMain {
 	public static void main(String args[]) {
-		SBI s;
+		SBIBank s;
         IndianBank i;
-        Icici c;
+        IciciBank c;
     
-        s=new SBI();
+        s=new SBIBank();
         s.interest();
         i= new IndianBank();
         i.interest();
-        c = new Icici();
+        c = new IciciBank();
         c.interest();
         
 	}
